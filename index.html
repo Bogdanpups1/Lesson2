@@ -11,11 +11,12 @@
         let surname = prompt("Your Surname?: ")
         let year = 0;
         let finYear = 0;
+        let psq = 0;
         year = prompt("Your Birthday year?: ")
         finYear = parseInt(2025) - parseInt(year)
-        alert("Your Name: ", name)
-        alert("Your Surname: ", surname)
-        alert("You burn in: ", finYear)
+        let a = prompt("How long your side of square")
+        psq = parseInt(a) * parseInt(4)
+        alert("Your Name: " + name + "\nYour Surname: " + surname + "\nYou now: " + finYear + "\nP of square: " + psq)
     </script>
 </body>
 </html> 
